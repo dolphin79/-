@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- MDUI CSS -->
+  <link rel="stylesheet" href="css/mdui.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>HMCL-PE</title>
+  <!--SEO优化-->
+  <meta name="keywords" content="HMCL-PE,Hello Minecraft! Launcher : Pocket Edition" />
+  <meta name="description" content="你是一个一个一个一个启动器" />
+  <meta name="author" content="HMCL-PE" />
+  <meta name="copyright" content="HMCL-PE" />
+  <!--IE HTML5-->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<!--黑色主题-->
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-layout-dark">
+  <!--工具栏-->
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-theme">
+      <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer'}"><em
+          class="mdui-icon material-icons">menu</em></span>
+      <a href="index.html" class="mdui-typo-headline">HMCL-PE</a>
+      <div class="mdui-toolbar-spacer"></div>
+      <a class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><em class="mdui-icon material-icons">search</em></a>
+      <a class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><em
+          class="mdui-icon material-icons">more_vert</em></a>
+    </div>
+  </div>
+  <!--侧边栏-->
+  <div class="mdui-drawer mdui-shadow-10" id="drawer">
+    <div class="mdui-list">
+      <ui class="mdui-list-item mdui-ripple">
+        <em class="mdui-list-item-icon mdui-icon material-icons">home</em>
+        <a href="index.html" class="mdui-list-item-content">首页</a>
+      </ui>
+      <!--项目-->
+      <ui class="mdui-list-item mdui-ripple">
+        <em class="mdui-list-item-icon mdui-icon material-icons">&#xe5c3;</em>
+        <a href="https://github.com/Tungstend/HMCL-PE/" class="mdui-list-item-content">项目</a>
+      </ui>
+      <!--QQ群-->
+      <ui class="mdui-list-item mdui-ripple">
+        <em class="mdui-list-item-icon mdui-icon material-icons">&#xe55b;</em>
+        <a href="https://jq.qq.com/?_wv=1027&k=5hgjZx" class="mdui-list-item-content">Q群</a>
+      </ui>
+      <!--关于-->
+      <ui class="mdui-list-item mdui-ripple">
+        <em class="mdui-list-item-icon mdui-icon material-icons">&#xe8fd;</em>
+        <a class="mdui-list-item-content" mdui-dialog="{target: '#aboutDialog'}">关于</a>
+      </ui>
+    </div>
+  </div>
+
+  <div class="mdui-dialog" id="aboutDialog">
+    <div class="mdui-dialog-content mdui-typo">
+      <p>Hello Minecraft! Launcher : Pocket Edition</p>
+      <div class="mdui-typo-mdui-typo-title">Made by</div>
+      <div class="mdui-typo-headline">Tungstend,ShirosakiMio</div>
+      <div class="mdui-typo-mdui-typo-title">Based on</div>
+      <div class="mdui-typo-headline"><abbr title="AOF-Dev/Boat">Boat</abbr></div>
+      <div class="mdui-typo-headline"><abbr title="PojavLauncherTeam/PojavLauncher">PojavLauncher</abbr></div>
+    </div>
+    <div class="mdui-dialog-actions">
+      <!--打开HMCL-PE的项目主页-->
+      <button class="mdui-btn mdui-ripple"
+        onclick="window.open('https://github.com/Tungstend/HMCL-PE')">HMCL-PE</button>
+      <!--打开Tungstend的个人主页-->
+      <button class="mdui-btn mdui-ripple" onclick="window.open('https://github.com/Tungstend')">Tungstend</button>
+      <!--打开ShirosakiMio的个人主页-->
+      <button class="mdui-btn mdui-ripple"
+        onclick="window.open('https://github.com/ShirosakiMio')">ShirosakiMio</button>
+      <!--打开Boat的项目主页-->
+      <button class="mdui-btn mdui-ripple" onclick="window.open('https://github.com/AOF-Dev/Boat')">Boat</button>
+      <!--打开PojavLauncher的项目主页-->
+      <button class="mdui-btn mdui-ripple"
+        onclick="window.open('https://github.com/PojavLauncherTeam/PojavLauncher')">PojavLauncher</button>
+      <!--关闭按钮-->
+      <button class="mdui-btn mdui-ripple" mdui-dialog-close>关闭</button>
+    </div>
+  </div>
+  <!--banner-->
+  <div class="mdui-container mdui-center">
+    <div class="banner">
+      <h1>
+        <strong>H</strong>ello!
+        <strong>M</strong>ine<strong>C</strong>raft
+        <strong>L</strong>auncher :
+        <strong>P</strong>ocket
+        <strong>E</strong>dition
+        <div class="meta">你是一个一个一个一个启动器\n（请注意！一些链接可能无法访问）</div>
+        <a class="mdui-btn mdui-ripple" href="https://github.com/Tungstend/HMCL-PE/wiki">维基</a>
+        <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#downloadDialog'}">下载</button>
+        <div class="mdui-dialog" id="downloadDialog">
+          <div class="mdui-dialog-content">
+            <div class="mdui-typo-title">请选择下载源</div>
+            <div class="mdui-typo-subheading">
+              <a href="https://wwc.lanzoub.com/iUVrn03re25c" class="mdui-btn mdui-ripple">蓝奏云</a>
+              <a href="https://github.com/Tungstend/HMCL-PE/releases" class="mdui-btn mdui-ripple">Github</a>
+            </div>
+          </div>
+          <div class="mdui-dialog-actions">
+            <button class="mdui-btn mdui-ripple" mdui-dialog-close>关闭</button>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src='js/jsonp.js'></script>
+  <script>
+    jsonp(
+      'js/server.js',  // url
+      // opts
+      {
+        param: 'whatever',
+        name: 'jsonp_callback'
+      },
+      function (err, data) {
+        if (err) {
+          //console.log(err);
+        } else {
+          //console.log(data.latestPrerelease);
+        }
+      }
+    );
+  </script>
+  <!--goto top-->
+  <div class="mdui-fab-wrapper">
+    <button class="mdui-fab mdui-ripple mdui-color-theme-accent" id="goto-top">
+      <em class="mdui-icon material-icons">&#xe5d8;</em>
+    </button>
+  </div>
+  <!-- MDUI JS -->
+  <script src="js/mdui.min.js"></script>
+  <!-- tips of console -->
+  <script>
+    console.log('%cNothing here but you', 'color: #f44336; font-size: 20px;');
+  </script>
+</body>
+</html>
